@@ -35,7 +35,7 @@ resource "google_compute_instance" "private_vm" {
   network_interface {
     network =  google_compute_network.vpc_network.name
     subnetwork = google_compute_subnetwork.subnet_2.name
-    network_ip = "10.0.2.1"
+    network_ip = "10.0.2.5"
 
   }
 }

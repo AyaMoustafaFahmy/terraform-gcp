@@ -1,10 +1,9 @@
 data "google_iam_policy" "admin" {
   binding {
-    role = "roles/compute.instanceAdmin"
+    role = "roles/iam.serviceAccountUser"
+    # compute.instanceAdmin
 
-    members = [
-      "user:jane@example.com",
-    ]
+    members = ["allAuthenticatedUsers"]
   }
 }
 
