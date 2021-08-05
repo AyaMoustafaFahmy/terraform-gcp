@@ -1,3 +1,5 @@
+############# terraform plan####################
+
 google_compute_network.vpc_network: Refreshing state... [id=projects/nti-project-321407/global/networks/myvpc]
 google_project_service.project: Refreshing state... [id=nti-project-321407/compute.googleapis.com]
 google_storage_bucket.gcp-bucket: Refreshing state... [id=gcp-terraform-111]
