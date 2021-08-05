@@ -1,0 +1,46 @@
+google_compute_network.vpc_network: Refreshing state... [id=projects/nti-project-321407/global/networks/myvpc]
+google_project_service.project: Refreshing state... [id=nti-project-321407/compute.googleapis.com]
+google_storage_bucket.gcp-bucket: Refreshing state... [id=gcp-terraform-111]
+google_service_account.service_account: Refreshing state... [id=projects/nti-project-321407/serviceAccounts/service-account@nti-project-321407.iam.gserviceaccount.com]
+google_container_cluster.primary: Refreshing state... [id=projects/nti-project-321407/locations/us-central1/clusters/my-cluster]
+google_compute_subnetwork.subnet_2: Refreshing state... [id=projects/nti-project-321407/regions/us-west1/subnetworks/subnet2]
+google_compute_subnetwork.subnet_1: Refreshing state... [id=projects/nti-project-321407/regions/us-central1/subnetworks/subnet1]
+google_compute_firewall.default: Refreshing state... [id=projects/nti-project-321407/global/firewalls/test-firewall]
+google_bigquery_dataset.dataset: Refreshing state... [id=projects/nti-project-321407/datasets/example_dataset] 
+google_compute_instance.public_vm: Refreshing state... [id=projects/nti-project-321407/zones/us-central1-a/instances/public-vm]
+google_compute_router.router: Refreshing state... [id=projects/nti-project-321407/regions/us-west1/routers/my-router]
+google_compute_instance.private_vm: Refreshing state... [id=projects/nti-project-321407/zones/us-west1-b/instances/private-vm]
+google_compute_instance_iam_policy.policy: Refreshing state... [id=projects/nti-project-321407/zones/us-central1-a/instances/public-vm]
+google_compute_router_nat.nat: Refreshing state... [id=nti-project-321407/us-west1/my-router/my-router-nat]
+google_container_node_pool.primary_preemptible_nodes: Refreshing state... [id=projects/nti-project-321407/locations/us-central1/clusters/my-cluster/nodePools/my-node-pool]
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration and found no differences, so no
+changes are needed.
+
+
+############## terraform apply ##############
+
+google_project_service.project: Refreshing state... [id=nti-project-321407/compute.googleapis.com]
+google_service_account.service_account: Refreshing state... [id=projects/nti-project-321407/serviceAccounts/service-account@nti-project-321407.iam.gserviceaccount.com]
+google_compute_network.vpc_network: Refreshing state... [id=projects/nti-project-321407/global/networks/myvpc] 
+google_storage_bucket.gcp-bucket: Refreshing state... [id=gcp-terraform-111]
+google_container_cluster.primary: Refreshing state... [id=projects/nti-project-321407/locations/us-central1/clusters/my-cluster]
+google_compute_subnetwork.subnet_2: Refreshing state... [id=projects/nti-project-321407/regions/us-west1/subnetworks/subnet2]
+google_compute_subnetwork.subnet_1: Refreshing state... [id=projects/nti-project-321407/regions/us-central1/subnetworks/subnet1]
+google_compute_firewall.default: Refreshing state... [id=projects/nti-project-321407/global/firewalls/test-firewall]
+google_bigquery_dataset.dataset: Refreshing state... [id=projects/nti-project-321407/datasets/example_dataset]
+google_compute_instance.public_vm: Refreshing state... [id=projects/nti-project-321407/zones/us-central1-a/instances/public-vm]
+google_compute_router.router: Refreshing state... [id=projects/nti-project-321407/regions/us-west1/routers/my-router]
+google_compute_instance.private_vm: Refreshing state... [id=projects/nti-project-321407/zones/us-west1-b/instances/private-vm]
+google_compute_instance_iam_policy.policy: Refreshing state... [id=projects/nti-project-321407/zones/us-central1-a/instances/public-vm]
+google_compute_router_nat.nat: Refreshing state... [id=nti-project-321407/us-west1/my-router/my-router-nat]    
+google_container_node_pool.primary_preemptible_nodes: Refreshing state... [id=projects/nti-project-321407/locations/us-central1/clusters/my-cluster/nodePools/my-node-pool]
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration and found no differences, so no     
+changes are needed.
+
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
