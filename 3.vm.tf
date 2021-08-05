@@ -1,5 +1,5 @@
 resource "google_compute_instance" "public_vm" {
-  name         = "public_vm"
+  name         = "public-vm"
   machine_type = "e2-micro"
   zone         = "us-central1-a"
 
@@ -13,16 +13,16 @@ resource "google_compute_instance" "public_vm" {
   network_interface {
     network = google_compute_network.vpc_network.name
     subnetwork =google_compute_subnetwork.subnet_1.name
-    network_ip = "10.0.1.1"
+    network_ip = "10.0.1.5"
 
   }
 }
 
 
 resource "google_compute_instance" "private_vm" {
-  name         = "public_vm"
+  name         = "private-vm"
   machine_type = "e2-micro"
-  zone         = "eu-west-1"
+  zone         = "us-west1-b"
 
   boot_disk {
     initialize_params {
@@ -34,7 +34,7 @@ resource "google_compute_instance" "private_vm" {
 
   network_interface {
     network =  google_compute_network.vpc_network.name
-    subnetwork = google_compute_subnetwork.subnet_1.name
+    subnetwork = google_compute_subnetwork.subnet_2.name
     network_ip = "10.0.2.1"
 
   }
